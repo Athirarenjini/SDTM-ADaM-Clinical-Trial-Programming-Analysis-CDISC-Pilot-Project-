@@ -1,6 +1,6 @@
 /*
 Purpose : Build ADSLand compare it
-          against the sponsor reference data.
+          against the CDISC Pilot Project reference ADaM datasets.
 
 Population note (refered adsl):
   The reference ADSL only contains the 254 subjects who were actually
@@ -187,7 +187,7 @@ run;
 title;
 
 /*
-COMPARE to sponsor reference
+COMPARE to CDISC Pilot Project reference ADaM datasets
 */
 
 proc sort data=REF.ADSL out=ADSL_REF_SORT;
