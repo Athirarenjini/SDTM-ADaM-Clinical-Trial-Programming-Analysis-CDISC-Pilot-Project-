@@ -1,6 +1,6 @@
 /*
 Purpose : Build ADTTE (Time to First Dermatologic Event) and compare
-          it against the sponsor reference data
+          it against the CDISC Pilot Project reference ADaM datasets
 
 Derivation rules below are taken directly from the project's define.xml
 (ItemDef comments for ADTTE):
@@ -176,7 +176,7 @@ run;
 title;
 
 /*
-COMPARE to sponsor reference
+COMPARE to CDISC Pilot Project reference ADaM datasets
 */
 
 proc sort data=REF.ADTTE out=ADTTE_REF_SORT;
