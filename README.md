@@ -1,4 +1,4 @@
-# SDTM to ADaM: Clinical Trial Programming Project
+# SDTM to ADaM: Clinical Trial Programming
 
 A beginner-level SAS programming project that converts CDISC SDTM datasets into
 ADaM analysis datasets and produces a few standard clinical trial summary tables.
