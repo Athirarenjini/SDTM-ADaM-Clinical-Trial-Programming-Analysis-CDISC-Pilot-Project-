@@ -74,14 +74,17 @@ excluded from ADSL, leaving the 254-subject analysis population above.
 - Every ADaM dataset was reconciled against the CDISC Pilot Project reference
   dataset using `PROC COMPARE` — all three currently show **0 unequal records**.
 - All three datasets were also run through **Pinnacle 21 Community**. Findings
-  fall into three groups: (1) expected gaps from validating a 3-dataset
+  fall into three groups:
+  (1) expected gaps from validating a 3-dataset
   beginner project against the full CDISC Pilot Project Define.xml, which
   references additional datasets/variables never built here — this includes
   118 total variable/label-completeness finding occurrences across
   ADSL/ADAE/ADTTE (not 118 independent errors — several occurrences trace
-  back to the same underlying scope/metadata gap); (2) a file-recognition
+  back to the same underlying scope/metadata gap);
+  (2) a file-recognition
   limitation of the validation run for the raw SDTM files included alongside
-  the ADaM datasets; and (3) one deliberately accepted deviation — TRTEMFL
+  the ADaM datasets;
+  (3) one deliberately accepted deviation — TRTEMFL
   using Y/N instead of Pinnacle 21's generic Y/null rule — kept because it
   matches this study's own Define.xml and is needed to reconcile against the
   reference data. Full details, including the individual finding IDs, are in
