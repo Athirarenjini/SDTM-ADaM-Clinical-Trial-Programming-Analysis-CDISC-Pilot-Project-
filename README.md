@@ -72,7 +72,7 @@ excluded from ADSL, leaving the 254-subject analysis population above.
 ## Validation
 
 * Every ADaM dataset was reconciled against the CDISC Pilot Project reference
-dataset using `PROC COMPARE` — all three currently show **0 unequal records**.
+* The derived ADSL, ADAE and ADTTE datasets were reconciled against the CDISC Pilot reference datasets using PROC COMPARE,    with 0 unequal records reported in the local validation run.
 * All three datasets were also run through **Pinnacle 21 Community**. Most
 findings are expected for a small 3-dataset beginner project checked against
 the full CDISC Pilot Project Define.xml (e.g. variables/datasets out of scope). One
