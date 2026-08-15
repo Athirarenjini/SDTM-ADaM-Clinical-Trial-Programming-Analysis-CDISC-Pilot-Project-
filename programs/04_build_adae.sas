@@ -1,5 +1,5 @@
 /*Purpose: Built ADAE(Adverse Events Analysis Dataset) and compare it
-          against the sponsor reference data.
+          against the CDISC Pilot Project reference ADaM datasets.
 
 Derivation rules (from define.xml ItemDef comments for ADAE):
   ASTDT   : AESTDTC converted to a SAS date.
@@ -229,7 +229,7 @@ quit;
 title;
 
 /*
-COMPARE to sponsor reference
+COMPARE to CDISC Pilot Project reference ADaM datasets
 */
 
 proc sort data=REF.ADAE out=ADAE_REF_SORT;
