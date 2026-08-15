@@ -1,6 +1,7 @@
 /* Export final ADaM datasets for Pinnacle 21 */
 
 %let HOME=/home/&sysuserid;
+libname ADAM "&HOME/sas_adam_project_1";
 
 
 /* ADSL */
