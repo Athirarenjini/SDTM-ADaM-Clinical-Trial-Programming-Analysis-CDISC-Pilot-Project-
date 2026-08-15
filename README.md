@@ -112,8 +112,8 @@ README.md
 
 ## How to reproduce
 
-1. Download the CDISC Pilot Project SDTM data from the link above.
-2. Load DM, EX, and AE into a SAS library.
+1. Download the CDISC Pilot Project SDTM data from the link given below.
+2. Load DM, EX, and AE and reference ADSL,ADAE,ADTTE datasets into SAS libraries.
 3. Update the `%let HOME=...` path at the top of each program if needed.
 4. Run the programs in order (01 through 11).
 
@@ -143,6 +143,6 @@ Kaplan-Meier).
 Source data: CDISC SDTM/ADaM Pilot Project
 (https://github.com/cdisc-org/sdtm-adam-pilot-project), used under CDISC's
 Terms of Use and not redistributed here. This repository contains only my
-own programs, derived-dataset documentation, and analysis. It is an
-independent learning project and is not affiliated with or endorsed by CDISC.
+own programs, derived-dataset documentation, and analysis. It is 
+a  learning project and is not affiliated with or endorsed by CDISC.
 
