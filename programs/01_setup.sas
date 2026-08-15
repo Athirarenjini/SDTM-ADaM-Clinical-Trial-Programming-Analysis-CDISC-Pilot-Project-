@@ -9,7 +9,7 @@ options dlcreatedir;
 
 /* Assign project libraries.
    SDTM =  raw SDTM datasets (dm, ae, ex, ds, suppae)
-   REF  = the SPONSOR'S reference ADaM datasets (adsl, adae, adtte) -
+   REF  = CDISC Pilot Project reference ADaM datasets (adsl, adae, adtte) -
           kept in a SEPARATE library 
    ADAM = derived ADaM datasets */
 
@@ -83,7 +83,7 @@ quit;
 
 
 /*
- Import sponsor REFERENCE ADaM datasets
+ Import CDISC Pilot Project reference ADaM datasets
 */
 
 /* Import ADSL reference */
