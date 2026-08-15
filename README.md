@@ -1,4 +1,4 @@
-# SDTM to ADaM: Clinical Trial Programming Project
+# SDTM to ADaM: Clinical Trial Programming 
 
 A beginner-level SAS programming project that converts CDISC SDTM datasets into
 ADaM analysis datasets and produces a few standard clinical trial summary tables.
@@ -105,7 +105,7 @@ validation/
   pinnacle21-report.xlsx
 
 docs/
-  ADaM\_Traceability.xlsx
+  ADaM_Traceability.xlsx
 
 README.md
 ```
@@ -115,7 +115,7 @@ README.md
 1. Download the CDISC Pilot Project SDTM data from the link above.
 2. Load DM, EX, and AE into a SAS library.
 3. Update the `%let HOME=...` path at the top of each program if needed.
-4. Run the programs in order (00 through 11).
+4. Run the programs in order (01 through 11).
 
 ## Known limitations
 
