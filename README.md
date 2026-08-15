@@ -47,7 +47,7 @@ excluded from ADSL, leaving the 254-subject analysis population above.
 
 **Kaplan-Meier Plot — Time to First Dermatologic Event by Planned Treatment**
 
-https://github.com/Athirarenjini/clinical-sas-sdtm-adam-project/blob/main/docs/outputs/km_plot.png
+![Kaplan-Meier plot](docs/outputs/km_plot.png)
 
 
 ## Key results
@@ -120,10 +120,11 @@ validation/
 docs/
   ADaM_Traceability.xlsx
   outputs/
-    Table1_Demographics
-    Table2_TEAE_Summary
-    Table3_Treatment_Duration
-    km_plot.png
+    Table1_Demographics.pdf
+    Table2_TEAE_Summary.pdf
+    Table3_Treatment_Duration.pdf
+    KM_Plot_ADTTE.pdf
+    km_plot.png    
 
 README.md
 ```
