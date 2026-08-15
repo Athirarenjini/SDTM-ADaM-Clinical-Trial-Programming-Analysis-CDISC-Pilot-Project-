@@ -89,7 +89,7 @@ repository — see the Data source section above for where to obtain it.
 
 ```
 programs/
-  00\_setup.sas
+  01\_setup.sas
   02\_explore\_sdtm.sas
   03\_build\_adsl.sas
   04\_build\_adae.sas
@@ -112,7 +112,7 @@ README.md
 
 ## How to reproduce
 
-1. Download the CDISC Pilot Project SDTM data from the link given below.
+1. Download the CDISC Pilot Project SDTM data from the link given above.
 2. Load DM, EX, and AE and reference ADSL,ADAE,ADTTE datasets into SAS libraries.
 3. Update the `%let HOME=...` path at the top of each program if needed.
 4. Run the programs in order (01 through 11).
